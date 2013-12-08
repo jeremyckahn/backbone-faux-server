@@ -383,7 +383,7 @@ Transports are deferred-like objects implementing a `resolve` / `reject` / `prom
 successful sync will invoke `transport.resolve` while a failed one will invoke `transport.reject`.
 The sync method will always return `transport.promise()`.
 
-See [the Tranport section](#about-transports) for further details.
+See [the Tranport section](#transports) for further details.
 
 #### enable ([shouldEnable])
 
